@@ -12,7 +12,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   # example-package = pkgs.callPackage ./pkgs/example-package { };
-  urbanist = pkgs.callPackage ./pkgs/urbanist {};
-  mplus = pkgs.callPackage ./pkgs/mplus {};
   gabarito = pkgs.callPackage ./pkgs/gabarito {};
+  mplus = pkgs.callPackage ./pkgs/mplus {};
+  urbanist = pkgs.callPackage ./pkgs/urbanist {};
 }
