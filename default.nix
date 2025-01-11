@@ -14,5 +14,6 @@
   # example-package = pkgs.callPackage ./pkgs/example-package { };
   gabarito = pkgs.callPackage ./pkgs/gabarito {};
   mplus = pkgs.callPackage ./pkgs/mplus {};
+  steam-art-manager = pkgs.callPackage ./pkgs/steam-art-manager {};
   urbanist = pkgs.callPackage ./pkgs/urbanist {};
 }
