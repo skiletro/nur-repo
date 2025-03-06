@@ -12,6 +12,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   # example-package = pkgs.callPackage ./pkgs/example-package { };
+  applet-darwinmenu = pkgs.callPackage ./pkgs/applet-darwinmenu {};
   gabarito = pkgs.callPackage ./pkgs/gabarito {};
   mplus = pkgs.callPackage ./pkgs/mplus {};
   steam-art-manager = pkgs.callPackage ./pkgs/steam-art-manager {};
